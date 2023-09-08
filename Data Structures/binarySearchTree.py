@@ -1,3 +1,11 @@
+# uses: database indexing, sorting algorithms and decision trees
+# typically given the case that you will be using a Binary Tree
+# Binary Tree problems can be solved using recursion
+# tree traversals you need to learn: pre order, post order, in order, level order
+
+# important problems, lowest common ancestor, print left view of a Binary Tree, Maximum Path Sum
+
+
 class node:
     def __init__(self, value=None):
         self.value = value
@@ -49,8 +57,6 @@ class binary_search_tree:
         left_height = self._height(curr_node.left_child, curr_height+1)
         right_height = self._height(curr_node.right_child, curr_height+1)
         return max(left_height, right_height)
-
-
 
 def fillTree(tree, num_elems=100,max_int=1000):
     from random import randint

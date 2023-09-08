@@ -16,3 +16,7 @@ class Stack:
 #compile time memory management: programs use them to store local data and procedure info, nested and recursive functions
 # DFS
 # undo (pop)/redo (push)
+
+# tips for determining when to use: 
+# when you have a previously seen value and you know you need the last seen value first first, you can use a stack
+# largest rectangle in a histograph
